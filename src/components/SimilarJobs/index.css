@@ -1,0 +1,17 @@
+.similarJobs_listItems {
+  background-color: #2c364c;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .similarJobs_listItems {
+    max-width: 48%;
+    padding: 25px;
+    border-radius: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .similarJobs_listItems {
+    max-width: 35%;
+  }
+}

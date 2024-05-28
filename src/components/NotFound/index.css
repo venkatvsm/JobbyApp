@@ -1,0 +1,38 @@
+.notFoundContainer {
+  height: 100vh;
+  font-family: 'Roboto';
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notFoundCardContainer {
+  width: 80%;
+  text-align: center;
+}
+.notFoundImage {
+  width: 100%;
+}
+.notFound_heading {
+  color: #ffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.notFound_para {
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .notFoundImage {
+    max-width: 440px;
+  }
+  .notFound_heading {
+    font-size: 34px;
+  }
+  .notFound_para {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

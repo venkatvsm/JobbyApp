@@ -1,0 +1,34 @@
+.filtersContainer {
+  border-style: solid;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+.employment-heading {
+  margin: 0px;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.employment-list-Container {
+  list-style-type: none;
+  padding: 0px;
+}
+.employment-list {
+  display: flex;
+  align-items: cenetr;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.label {
+  color: #ffff;
+  margin-top: 2px;
+}
+.horizontalBreakLine{
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+@media screen and (min-width: 768px) {
+  .filtersContainer {
+    font-size: 18px;
+  }
+}
