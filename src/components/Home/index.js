@@ -11,11 +11,11 @@ const Home = () => (
         Millions of people are searching for jobs, salary information company
         reviews.Find the jobs that fits your abilities and potential
       </p>
-      <button className="home-btn" type="button">
-        <Link to="/jobs" className="home_link">
+      <Link to="/jobs" className="home_link">
+        <button className="home-btn" type="button">
           Find Jobs
-        </Link>
-      </button>
+        </button>
+      </Link>
     </div>
   </div>
 )
