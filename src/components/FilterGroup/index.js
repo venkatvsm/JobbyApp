@@ -93,7 +93,7 @@ const FilterGroup = props => {
   }
   const renderSalaryRangeTypes = () => (
     <>
-      <h1 className="employment-heading">SalaryRange</h1>
+      <h1 className="employment-heading">Salary Range</h1>
       <ul className="employment-list-Container">{renderSalaryList()}</ul>
     </>
   )

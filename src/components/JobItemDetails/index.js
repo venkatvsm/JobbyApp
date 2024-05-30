@@ -172,6 +172,10 @@ class JobItemDetails extends Component {
     )
   }
 
+  onClickRetryBtn = () => {
+    this.renderJobsApiCalls()
+  }
+
   renderFailureView = () => (
     <div className="failureContainer">
       <img

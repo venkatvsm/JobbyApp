@@ -171,7 +171,7 @@ class Jobs extends Component {
           />
           <h1 className="failure_heading">No Jobs Found</h1>
           <p className="failure_para">
-            We Could not find any jobs. Try another filters.
+            We Could not find any jobs. Try other filters.
           </p>
         </div>
       )

@@ -41,39 +41,39 @@ class Login extends Component {
   render() {
     const {isError, errorMsg, username, password} = this.state
     return (
-      <div className='login_Container'>
-        <form className='loginCardContainer' onSubmit={this.rendersubmitForm}>
+      <div className="login_Container">
+        <form className="loginCardContainer" onSubmit={this.rendersubmitForm}>
           <img
-            src='https://assets.ccbp.in/frontend/react-js/logo-img.png'
-            alt='website logo'
-            className='website_logo'
+            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            alt="website logo"
+            className="website_logo"
           />
-          <label htmlFor='UserName' className='label'>
+          <label htmlFor="UserName" className="label">
             USERNAME
           </label>
           <input
-            id='UserName'
+            id="UserName"
             value={username}
-            className='inputfield'
-            type='text'
-            placeholder='Username'
+            className="inputfield"
+            type="text"
+            placeholder="Username"
             onChange={this.changeUserName}
           />
-          <label htmlFor='password' className='label'>
+          <label htmlFor="password" className="label">
             PASSWORD
           </label>
           <input
-            id='password'
+            id="password"
             value={password}
-            className='inputfield'
-            type='password'
-            placeholder='Password'
+            className="inputfield"
+            type="password"
+            placeholder="Password"
             onChange={this.changePassword}
           />
-          <button type='submit' className='loginBtn'>
+          <button type="submit" className="loginBtn">
             Login
           </button>
-          {isError && <p className='error_msg'>*{errorMsg}</p>}
+          {isError && <p className="error_msg">*{errorMsg}</p>}
         </form>
       </div>
     )
