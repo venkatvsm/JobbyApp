@@ -1,5 +1,6 @@
 import './index.css'
 import {Component} from 'react'
+import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
 class Login extends Component {
@@ -40,6 +41,10 @@ class Login extends Component {
 
   render() {
     const {isError, errorMsg, username, password} = this.state
+    const jwtToken = Cookies.get('jwt_token')
+    if (jwtToken !== undefined) {
+      return <Redirect to="/" />
+    }
     return (
       <div className="login_Container">
         <form className="loginCardContainer" onSubmit={this.rendersubmitForm}>
